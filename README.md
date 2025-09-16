@@ -10,3 +10,8 @@
 \n- NaverWorksBot.send_message()에서 실제 전송 대신 표준출력으로 대체\r\n\r\n## 개발 참고
 \n- src/main.py는 거래소명.config를 읽어 수신 포트/타임아웃을 적용합니다.\r\n- 첫 패킷 수신 시 바로 감지/로그 출력 후 알림 스텁 호출\r\n
 
+
+## 추가 설정 키
+- snmp_host / snmp_community / snmp_oids (comma)
+- db_host / db_user / db_password / db_database / db_table
+- holiday_api / holiday_crawl (둘 중 하나 선택)
