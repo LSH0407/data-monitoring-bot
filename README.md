@@ -15,3 +15,7 @@
 - snmp_host / snmp_community / snmp_oids (comma)
 - db_host / db_user / db_password / db_database / db_table
 - holiday_api / holiday_crawl (둘 중 하나 선택)
+
+### MariaDB 테이블(자동 생성)
+앱이 최초 실행 시 테이블이 없으면 자동 생성합니다. 기본 테이블: 
+- 컬럼: id, ts, exchange, detected, listen_ip, port, holiday_count, snmp_0..snmp_4

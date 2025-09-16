@@ -3,7 +3,7 @@ import socket
 from typing import Optional, Dict, List
 from .holidays import get_holidays
 from .snmp import collect_status
-from .db import save_event
+from .db import save_event, ensure_table
 
 CONFIG_DEFAULTS: Dict[str, str] = {
     "listen_ip": "0.0.0.0",
