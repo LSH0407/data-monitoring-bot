@@ -1,0 +1,8 @@
+﻿[project]
+name = "data-monitoring-bot"
+version = "0.1.0"
+description = "거래소/장비 데이터 수신 감지 및 NaverWorks API 알림 스텁"
+requires-python = ">=3.10"
+
+[project.scripts]
+monitor = "src.main:main"
